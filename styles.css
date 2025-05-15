@@ -1,0 +1,60 @@
+.flex {
+    display: flex;
+    width: 100vw;
+    height: 10vh;
+}
+
+.flex1 {
+    display: flex;
+    width: 40vw;
+    height: 10vh;
+    background-color: rgb(134, 226, 134);
+    align-items: center;
+    justify-content: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-weight: 650;
+    font-size: 4vh;
+}
+
+.flex2 {
+    display: flex;
+    width: 60vw;
+    height: 10vh;
+    background-color: rgb(221, 168, 159);
+    align-items: center;
+    justify-content: right;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#add {
+    display: flex;
+    border-radius: 4vh;
+    border-style: solid;
+    border-width: 0.5vh;
+    background-color: black;
+    height: 6vh;
+    width: 5vw;
+    margin-right: 5vw;
+    justify-content: center;
+    align-items: center;
+    font-size: min(3vh, 25px);
+    font-size: 600;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+}
+
+#grid {
+    display: grid;
+    height: 84vh;
+    width: 92vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    row-gap: 2vh;
+    column-gap: 4vw;
+    grid-template-rows: repeat(5, auto);
+    grid-template-columns: repeat(8,auto);
+    grid-auto-flow: column;
+}
